@@ -15,6 +15,7 @@ use App\Http\Controllers\AdminController;
 |
 */
 
-Route::get('/', [AdminController::class, 'getTeachers']);
+// Route::get('/', [AdminController::class, 'getTeachers']);
+Route::view('/', 'welcome');
 
 
